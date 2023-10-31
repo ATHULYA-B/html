@@ -9,9 +9,11 @@
     .img{
       background-image: url(./banner.png);
       height: 900px;
+    
     }
     .prgm{
       background-color: #311E25;
+      padding-bottom: 6%;
     }
       .hi{
         color: rgb(179, 91, 41);
@@ -53,7 +55,7 @@
       }
       .one:hover{
         color: white;
-        background-color: orangered;
+        background-color: #DB9A64 ;
         transition: 1s;
       }
       .nav-link{
@@ -73,7 +75,7 @@
       }
       .row1 .btn:hover{
         color: white;
-        background-color: orangered;
+        background-color: #DB9A64 ;
         transition: 1s;
       }
       .row1 img{
@@ -89,6 +91,9 @@
         line-height: 46px;
         margin-bottom: 60px;
        
+}
+.row2{
+  margin-left: 15%;
 }
 .row2 p{
   font-size: 16px;
@@ -109,59 +114,33 @@
 }
 .row2 .btn:hover{
         color: white;
-        background-color: orangered;
+        background-color: #DB9A64  ;
         transition: 1s;
       }
-      .row2{
-        margin-left: 50px;
+.single_progress{
+        color: aliceblue;
+      }
+.progress-bar{
+        height: 6px;
+        background: #DB9A64;
+        border-radius: 5px;
+        box-sizing: border-box
+        
+      }
+      .progress_skills{
+        margin-left: 20%;
+        margin-top: 50%;
       }
       
       
-      /* .oi{
-       margin-left: 50%;
-       
-      } */
+      
+      
+      
+     
     </style>
 </head>
 <body>
-    <!-- <div class=%;v justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" >HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">WORKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">PAGES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">BLOG</a>     
-                </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">CONTACT</a>
-              </li>rgb(179, 91, 41)
-            </ul> 
-          </div>
-          </div> 
-        </div>  -->
-            <!-- <div class="row">
-            <div class="col">
-              <h1 class="si">Hi There, I Am Jony </h1>
-           <h1 class="su">Creative Director</h1>
-         <button class="ci">View Works</button>
-       <div class="oi">
-              <img src="./my_img.png" alt="">
-              </div>    
-            </div>   
-            </div> -->
-     
-        <!-- </div> -->
+    
   <div class="img">
      <div class="container-fluid">
 <div class="row">
@@ -210,16 +189,47 @@
 </div>
 </div>
 <div class="prgm">
-<div class="container">
+<div class="container-fluid">
   <div class="row row2">
-    <div class="col-lg-12 col-sm-12">
+    <div class="col-lg-8 col-sm-6">
       <h3 class="head">I’m a Creative director based on New York, who loves <br> clean,simple & unique design. I also enjoy crafting </h3>
          <P>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget <br>urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. <br>Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa <br> malesuada fermentum. 
           </P>
           <p> Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. <br>Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget</p>
           <button class="btn">Download CV</button>
     </div>
-    <div class="col-lg-5 col-sm-5"></div>
+    <div class="col-lg-4 col-md-6 ">
+      <div class="progress_skills">
+          <div class="single_progress">
+              <div class="label d-flex justify-content-between">
+                  <span>Wireframing</span>
+                  <span>90%</span>
+              </div>
+                  <div class="progress">
+                          <div class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+          </div>
+          <div class="single_progress">
+                  <div class="label d-flex justify-content-between">
+                          <span>UI/UX</span>
+                          <span>70%</span>
+                      </div>
+                  <div class="progress">
+                          <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+          </div>
+          <div class="single_progress">
+                  <div class="label d-flex justify-content-between">
+                          <span>Interaction design</span>
+                          <span>45%</span>
+                      </div>
+                  <div class="progress">
+                          <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+          </div>
+      </div>
+  </div>
+    
   </div>
 
 </div>
